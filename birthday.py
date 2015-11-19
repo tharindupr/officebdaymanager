@@ -107,11 +107,11 @@ def editmessage(url,name):
 
 
 for emails in emlist:
+    a=1
     name=emails[:-8]
     username=emails[:-7]
     url="http://54.179.157.173/officebdaymanager/img/"+username+".png"
     print(name,url)
     message=editmessage(url,name)
-    
     SendBirthdayGreetings(message, emails, ['tharindu@gmail.com', 'yovin99@hotmail.com'], 'Tharindu')
     
