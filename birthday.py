@@ -114,6 +114,6 @@ for emails in emlist:
     url="http://54.179.157.173/officebdaymanager/img/"+username+".png"
     print(name,url)
     message=editmessage(url,name)
-    SendBirthdayGreetings(message, emails,['tharindu.prf@gmail.com'] ,'Tharindu')
+    SendBirthdayGreetings(message, emails,['tharindu.prf@gmail.com'] ,username[:-1].title())
    
     
