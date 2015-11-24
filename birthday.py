@@ -74,7 +74,7 @@ try:
 	string = response.read()
 	
 except URLError:
-        f=open("Employees.json")
+        f=open("/var/www/officebdaymanager/Employees.json")
         string=f.read()
         #print 'No kittez. Got an error code:', e
 
