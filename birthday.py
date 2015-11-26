@@ -80,9 +80,9 @@ except URLError:
 
 
 obj=json.loads(string)
-#cdate=datetime.datetime.now()
-#currentDate=str(cdate.month)+'/'+str(cdate.day)
-currentDate='8/26'
+cdate=datetime.datetime.now()
+currentDate=str(cdate.month)+'/'+str(cdate.day)
+#currentDate='2/6'
 emailList=[]
 bdayEmailList=[]
 peoplewithbday=[]
